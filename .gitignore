@@ -10,7 +10,11 @@ firebase-debug.log*
 .firebase/
 
 
+# dependencies
 /node_modules
+/.pnp
+.pnp.js
+
 
 # Firebase config
 
