@@ -4,8 +4,9 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 const MySwal = withReactContent(Swal)
 import baseUrl from '../../utils/baseUrl'
-import withTranslationHOC from '../../services/hoc/TranslationHOC'
 import { TransFn } from '../../utils/types'
+import { useTranslation } from 'react-i18next'
+
 
 const alertContent = (t: TransFn) => {
     MySwal.fire({
@@ -27,12 +28,17 @@ const INITIAL_STATE = {
 };
 
 const ContactForm = () => {
+
+    const { t } = useTranslation('contactForm')
+
     const [contact, setContact] = useState(INITIAL_STATE);
-    const handleChange = e => {
+
+    const handleChange = (e: { target: { name: any; value: any } }) => {
         const { name, value } = e.target;
         setContact(prevState => ({ ...prevState, [name]: value }));
     }
-    const handleSubmit = async e => {
+    
+    const handleSubmit = async (e: { preventDefault: () => void }) => {
         e.preventDefault();
         try {
             const url = `${baseUrl}/api/contact`;
@@ -51,19 +57,19 @@ const ContactForm = () => {
         <>
             <div className="contact-form">
                 <div className="contact-title">
-                    <h2>Get In Touch</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <h2>{t('title')}</h2>
+                    <p>{t('text')}</p>
                 </div>
     
                 <form onSubmit={handleSubmit}>
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
+                            <div className="col-lg-4">
                                 <div className="form-group">
                                     <input 
                                         type="text" 
                                         name="name" 
-                                        placeholder="Name" 
+                                        placeholder={t('inputs.name')}
                                         className="form-control" 
                                         value={contact.name}
                                         onChange={handleChange} 
@@ -71,12 +77,12 @@ const ContactForm = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-4">
                                 <div className="form-group">
                                     <input 
                                         type="text" 
                                         name="email" 
-                                        placeholder="Email" 
+                                        placeholder={t('inputs.email')}
                                         className="form-control" 
                                         value={contact.email}
                                         onChange={handleChange} 
@@ -84,12 +90,12 @@ const ContactForm = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-4">
                                 <div className="form-group">
                                     <input 
                                         type="text" 
                                         name="number" 
-                                        placeholder="Phone number" 
+                                        placeholder={t('inputs.phone')}
                                         className="form-control" 
                                         value={contact.number}
                                         onChange={handleChange} 
@@ -97,12 +103,12 @@ const ContactForm = () => {
                                     />
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div className="col-lg-12">
                                 <div className="form-group">
                                     <input 
                                         type="text" 
                                         name="subject" 
-                                        placeholder="Subject" 
+                                        placeholder={t('inputs.subject')}
                                         className="form-control" 
                                         value={contact.subject}
                                         onChange={handleChange} 
@@ -114,9 +120,9 @@ const ContactForm = () => {
                                 <div className="form-group">
                                     <textarea 
                                         name="text" 
-                                        cols="30" 
-                                        rows="6" 
-                                        placeholder="Write your message..." 
+                                        cols={30}
+                                        rows={6}
+                                        placeholder={t('inputs.message')} 
                                         className="form-control" 
                                         value={contact.text}
                                         onChange={handleChange} 
@@ -137,4 +143,4 @@ const ContactForm = () => {
     )
 }
 
-export default withTranslationHOC(ContactForm, 'contactForm');
+export default ContactForm;
