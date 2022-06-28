@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+import { useTranslation } from 'react-i18next'
 
-export default class Features extends Component {
-    render() {
+export default function Features() {
+    const { t } = useTranslation('features');
         return (
             <>
                 <div className="bg-1b2232 pt-70 pb-40">
@@ -10,28 +11,28 @@ export default class Features extends Component {
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="bc-features-item">
                                     <i className="icon fa-solid fa-chart-bar"></i>
-                                    <h3>Advanced <br />Analytics</h3>
+                                    <h3>{t('outsourcing')}</h3>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="bc-features-item">
                                     <i className="icon fa-solid fa-lightbulb"></i>
-                                    <h3>Business <br />Innovation</h3>
+                                    <h3>{t('control')}</h3>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="bc-features-item">
                                     <i className="icon fa-solid fa-arrow-up-right-dots"></i>
-                                    <h3>Growth <br />Consulting</h3>
+                                    <h3>{t('logistic')}</h3>
                                 </div>
                             </div>
 
                             <div className="col-lg-3 col-md-3 col-sm-6">
                                 <div className="bc-features-item">
                                     <i className="icon fa-solid fa-users-rays"></i>
-                                    <h3>Sales <br />Consulting</h3>
+                                    <h3>{t('lean')}</h3>
                                 </div>
                             </div>
                         </div>
@@ -39,5 +40,4 @@ export default class Features extends Component {
                 </div>
             </>
         )
-    }
 }

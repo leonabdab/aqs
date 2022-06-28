@@ -13,39 +13,27 @@ import LatestNews from '../components/HomePages/BusinessConsulting/LatestNews';
 import OurClients from '../components/HomePages/BusinessConsulting/OurClients';
 import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer'; 
+import NavbarTwo from '../components/Layouts/NavbarTwo';
 
 class BusinessConsulting extends Component {
     render() {
         return (
             <>
                 <Navbar />
-
                 <MainBanner />
-
                 <Features />
-
                 <WhoWeAre />
-
                 <Services />
-
                 <Funfacts />
-
                 <WhatWeDo />
-
                 <TeamMembers />
-
                 <Pricing />
-
                 <CallToAction />
-
                 <LatestNews />
-
                 <OurClients />
-
                 <div className='ptb-100'>
                     <Newsletter />
                 </div>
-            
                 <Footer />
             </>
         );

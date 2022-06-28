@@ -5,6 +5,7 @@ import ContactInfo from '../components/Contact/ContactInfo';
 import ContactForm from '../components/Contact/ContactForm';
 import Newsletter from '../components/Common/Newsletter';
 import Footer from '../components/Layouts/Footer';
+import withTranslationHOC from '../services/hoc/TranslationHOC';
 
 class Contact extends Component {
     render() {
@@ -31,4 +32,4 @@ class Contact extends Component {
     }
 }
 
-export default Contact;
+export default withTranslationHOC(Contact, 'contact');

@@ -1,5 +1,6 @@
 import React from "react";
 import AOS from "aos";
+import '../services/i18n'
 import "../node_modules/aos/dist/aos.css";
 import "../styles/bootstrap.min.css";
 import "../styles/animate.min.css";
@@ -39,6 +40,7 @@ function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init();
   }, []);
+  
   return (
     <>
       <Head>

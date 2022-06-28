@@ -4,11 +4,13 @@ import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
 const MySwal = withReactContent(Swal)
 import baseUrl from '../../utils/baseUrl'
+import withTranslationHOC from '../../services/hoc/TranslationHOC'
+import { TransFn } from '../../utils/types'
 
-const alertContent = () => {
+const alertContent = (t: TransFn) => {
     MySwal.fire({
-        title: 'Congratulations!',
-        text: 'Your message was successfully send and will back to you soon',
+        title: t('successAlert.title'),
+        text: t('successAlert.text'),
         icon: 'success',
         timer: 2000,
         timerProgressBar: true,
@@ -16,7 +18,6 @@ const alertContent = () => {
     })
 }
 
-// Form initial state
 const INITIAL_STATE = {
     name: "",
     email: "",
@@ -30,7 +31,6 @@ const ContactForm = () => {
     const handleChange = e => {
         const { name, value } = e.target;
         setContact(prevState => ({ ...prevState, [name]: value }));
-        // console.log(contact)
     }
     const handleSubmit = async e => {
         e.preventDefault();
@@ -41,7 +41,7 @@ const ContactForm = () => {
             const response = await axios.post(url, payload);
             console.log(response);
             setContact(INITIAL_STATE);
-            alertContent();
+            alertContent(t);
         } catch (error) {
             console.log(error)
         }
@@ -137,4 +137,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;
+export default withTranslationHOC(ContactForm, 'contactForm');
