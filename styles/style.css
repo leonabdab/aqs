@@ -7409,7 +7409,8 @@ span.new {
   justify-content: space-around;
   align-items: flex-start;
   position: relative;
-  min-height: 200px;
+  min-height: 240px;
+  cursor: pointer;
 }
 
 .vacancy-card:hover {

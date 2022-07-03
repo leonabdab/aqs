@@ -4,6 +4,7 @@ import React from "react";
 type Props = {
   id?: string; //TODO
   title: string;
+  added?: string
   location?: string;
   category?: string;
 };
