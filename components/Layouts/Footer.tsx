@@ -1,164 +1,121 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
-class Footer extends Component {
-  render() {
+function Footer() {
+    const { t } = useTranslation("footer");
+  const { t: tNav } = useTranslation("navbar");
+
     return (
       <>
-        <footer className="footer-area mb-3">
-          <div className="container">
-            <div className="row justify-content-center">
-              <div className="col-lg-3 col-sm-6">
-                <div className="single-footer-widget">
-                  <div className="logo">
+        <footer className="footer-area  pb-5">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-3 col-sm-6">
+              <div className="single-footer-widget">
+                <div className="logo">
+                  <Link href="/">
+                    <a>
+                      <img src="/images/logo.png" alt="Logo" />
+                    </a>
+                  </Link>
+                </div>
+
+                <ul className="social-links">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="icofont-facebook"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://twitter.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="icofont-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="linkedin.com" target="_blank">
+                      <i className="icofont-linkedin"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <i className="icofont-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="single-footer-widget ml-4 pl-5">
+                <h3>{t("bottomNav.title1")}</h3>
+                <ul className="list">
+                  <li>
                     <Link href="/">
-                      <a>
-                        <img src="/images/logo.png" alt="Logo" />
-                      </a>
+                      <a>{tNav("home")}</a>
                     </Link>
-                  </div>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
-                  </p>
-
-                  <ul className="social-links">
-                    <li>
-                      <a
-                        href="https://www.facebook.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="icofont-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://twitter.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="icofont-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://linkedin.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="icofont-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <i className="icofont-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                  </li>
+                  <li>
+                    <Link href="/about">
+                      <a>{tNav("about")}</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/services">
+                      <a>{tNav("services")}</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/career">
+                      <a>{tNav("career")}</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/resources">
+                      <a>{tNav("resources")}</a>
+                    </Link>
+                  </li>
+                </ul>
               </div>
+            </div>
 
-              <div className="col-lg-3 col-md-6 col-sm-6">
-                <div className="single-footer-widget ml-4 pl-5">
-                  <h3>Explore</h3>
-
-                  <ul className="list">
-                    <li>
-                      <Link href="/">
-                        <a>Home</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/about">
-                        <a>About</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/services">
-                        <a>Services</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/portfolio">
-                        <a>Portfolio</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/team">
-                        <a>Team</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-sm-6">
-                <div className="single-footer-widget ml-4">
-                  <h3>Quick Links</h3>
-
-                  <ul className="list">
-                    <li>
-                      <Link href="/contact">
-                        <a>Contact Us</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/pricing">
-                        <a>Pricing</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/faq">
-                        <a>Faq</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/privacy-policy">
-                        <a>Privacy Policy</a>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/terms-conditions">
-                        <a>Terms & Conditions</a>
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="col-lg-3 col-sm-6">
-                <div className="single-footer-widget">
-                  <h3>Get in Touch</h3>
-
-                  <ul className="get-in-touch">
-                    <li>
-                      <i className="icofont-home"></i> 2750 Quadra Street
-                      Victoria, Canada.
-                    </li>
-                    <li>
-                      <i className="icofont-live-support"></i>
-                      <a href="tel:+324-9442-515">+324-9442-515</a>
-                    </li>
-                    <li>
-                      <i className="icofont-envelope"></i>
-                      <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    </li>
-                  </ul>
-                </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-footer-widget">
+                <h3>{t("bottomNav.title2")}</h3>
+                <ul className="get-in-touch">
+                  <li>
+                    <i className="icofont-home"></i>
+                    <span>Plac Solny 14/3</span>
+                    <p>Wrocław</p>
+                  </li>
+                  <li>
+                    <i className="icofont-live-support"></i>
+                    <a href="tel:+48 519 875 140">+48 519 875 140</a>
+                  </li>
+                  <li>
+                    <i className="icofont-envelope"></i>
+                    <a href="mailto:office@aqs-poland.com">office@aqs-poland.com</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </footer>
+        </div>
+      </footer>
       </>
     );
-  }
 }
 
 export default Footer;

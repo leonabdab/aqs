@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 type Props = {
+  id?: string; //TODO
   title: string;
   location?: string;
   category?: string;
@@ -18,10 +19,10 @@ export default function CareerTile({ title, location }: Props) {
 
   return (
     <>
-      <div className="col-lg-3 col-sm-6 ">
+      <div className="col-lg-6 col-sm-12 ">
         <Link href={`/career/${titlePath}`}>
-          <div className="career-card-one white-bg text-center">
-            <h3>{title}</h3>
+          <div className="vacancy-card">
+            <h4>{title}</h4>
             <p>{location}</p>
           </div>
         </Link>
