@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import NavbarTwo from "../components/Layouts/NavbarTwo";
 import PageBanner from "../components/Common/PageBanner";
 import AboutContent from "../components/About/AboutContent";
@@ -18,9 +18,7 @@ const About = () => {
       <NavbarTwo />
       <PageBanner pageTitle={t("mainText.1")} secondaryText={t("mainText.2")} BGImage="bg-one" />
       <AboutContent />
-
       <FunFactsTwo />
-
       <TeamStyleThree />
 
       <Feedback />

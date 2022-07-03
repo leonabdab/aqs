@@ -1,10 +1,6 @@
-import React, { Component } from "react";
+import React, { Component, PropsWithChildren } from "react";
 import Link from "next/link";
-const ModalVideo = dynamic(() => import("react-modal-video"), {
-  ssr: false,
-});
 import VisibilitySensor from "react-visibility-sensor";
-import dynamic from "next/dynamic";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Mousewheel, Keyboard } from "swiper";
 import withTranslationHOC from "../../../services/hoc/TranslationHOC";
@@ -26,6 +22,11 @@ class MainBanner extends Component<Props> {
     return (
       <>
         <Swiper
+          loop={true}
+          autoplay={{
+              delay: 7000,
+              disableOnInteraction: true
+          }}
           cssMode={true}
           navigation={true}
           pagination={{
@@ -71,7 +72,9 @@ class MainBanner extends Component<Props> {
                                 : "opacityZero"
                             }
                           ></div>
-                          <ContactButton />
+                          <ContactButton>
+                            {this.props.t("button.1")}
+                          </ContactButton>
                         </div>
                       )}
                     </VisibilitySensor>
@@ -116,7 +119,9 @@ class MainBanner extends Component<Props> {
                                 : "opacityZero"
                             }
                           >
-                            <ContactButton />
+                            <ContactButton>
+                              {this.props.t("button.1")}
+                            </ContactButton>
                           </div>
                         </div>
                       )}
@@ -162,7 +167,9 @@ class MainBanner extends Component<Props> {
                                 : "opacityZero"
                             }
                           >
-                            <ContactButton />
+                            <ContactButton>
+                              {this.props.t("button.2")}
+                            </ContactButton>
                           </div>
                         </div>
                       )}
@@ -180,10 +187,10 @@ class MainBanner extends Component<Props> {
 
 export default withTranslationHOC(MainBanner, "mainBanner");
 
-function ContactButton() {
+function ContactButton({ children }: PropsWithChildren<{}>) {
   return (
     <Link href="/contact">
-      <a className="btn btn-primary">Contact Us</a>
+      <a className="btn btn-primary">{children}</a>
     </Link>
   );
 }

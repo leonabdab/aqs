@@ -117,6 +117,11 @@ button {
   border-radius: 10px;
 }
 
+.ptb-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .ptb-100 {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -156,6 +161,10 @@ button {
 
 .bg-f9f9f9 {
   background-color: #f9f9f9;
+}
+
+.bg-315771 {
+  background-color: #315771;
 }
 
 .mb-30 {
@@ -2081,7 +2090,7 @@ About CSS
   position: absolute;
   left: 0;
   top: 6px;
-  color: #ffc671;
+  color: #c09c5d;
 }
 
 .video-box {
@@ -2866,28 +2875,44 @@ Services CSS
   visibility: visible;
 }
 
-.bg-13c4a1 {
-  background-color: #13c4a1;
+.bg-55DDE0 {
+  background-color: #55dde0;
 }
 
-.bg-6610f2 {
-  background-color: #6610f2;
+.bg-33658A {
+  background-color: #33658a;
 }
 
-.bg-ffb700 {
-  background-color: #ffb700;
+.bg-2F4858 {
+  background-color: #2f4858;
 }
 
-.bg-fc3549 {
-  background-color: #fc3549;
+.bg-F6AE2D {
+  background-color: #f6ae2d;
 }
 
-.bg-00d280 {
-  background-color: #00d280;
+.bg-F48923 {
+  background-color: #f48923;
 }
 
-.bg-ff612f {
-  background-color: #ff612f;
+.bg-937B43 {
+  background-color: #937b43;
+}
+
+.bg-F26419 {
+  background-color: #f26419;
+}
+
+.bg-C59538 {
+  background-color: #c59538;
+}
+
+.bg-61624E {
+  background-color: #61624e;
+}
+
+.bg-F3771E {
+  background-color: #f3771e;
 }
 
 /* Service card one */
@@ -2895,6 +2920,7 @@ Services CSS
   margin-bottom: 30px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  min-height: 252px;
 }
 
 .service-card-one i {
@@ -2912,7 +2938,7 @@ Services CSS
 }
 
 .service-card-one h3 {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 10px;
   font-weight: 600;
 }
@@ -2921,7 +2947,7 @@ Services CSS
   color: #18181b;
 }
 
-.service-card-one h3 a:hover {
+.service-card-one h3:hover {
   color: #ffc671;
 }
 
@@ -2931,7 +2957,7 @@ Services CSS
 
 .service-card-one.white-bg {
   background-color: #ffffff;
-  padding: 40px 30px;
+  padding: 40px 18px;
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
   -webkit-transition: all 0.5s ease;
@@ -2940,7 +2966,6 @@ Services CSS
 
 .service-card-one.white-bg:hover {
   background-color: #ffc671;
-  margin-top: -5px;
 }
 
 .service-card-one.white-bg:hover i {
@@ -4280,19 +4305,19 @@ CTA CSS
 }
 
 .cta-area.bg-gradient {
-    background: rgb(162, 126, 63);
-    background: -webkit-gradient(
-      linear,
-      bottom,
-      top,
-      from(rgba(162, 126, 63, 1)),
-      to(rgba(255, 198, 113, 1))
-    ) !important;
-    background: linear-gradient(
-      0deg,
-      rgba(162, 126, 63, 1) 0%,
-      rgba(255, 198, 113, 1) 100%
-    ) !important;
+  background: rgb(162, 126, 63);
+  background: -webkit-gradient(
+    linear,
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
+  ) !important;
+  background: linear-gradient(
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
+  ) !important;
 }
 
 .cta-area.bg-gradient .cta-content h3 {
@@ -4345,19 +4370,19 @@ CTA CSS
 }
 
 .cta-area-two::before {
-    background: rgb(162, 126, 63);
-    background: -webkit-gradient(
-      linear,
-      bottom,
-      top,
-      from(rgba(162, 126, 63, 1)),
-      to(rgba(255, 198, 113, 1))
-    );
-    background: linear-gradient(
-      0deg,
-      rgba(162, 126, 63, 1) 0%,
-      rgba(255, 198, 113, 1) 100%
-    );
+  background: rgb(162, 126, 63);
+  background: -webkit-gradient(
+    linear,
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
+  );
   position: absolute;
   height: 100%;
   width: 100%;
@@ -5077,19 +5102,19 @@ Blog CSS
 .blog-slides
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: rgb(162, 126, 63);
-    background: -webkit-gradient(
-      linear,
-      bottom,
-      top,
-      from(rgba(162, 126, 63, 1)),
-      to(rgba(255, 198, 113, 1))
-    );
-    background: linear-gradient(
-      0deg,
-      rgba(162, 126, 63, 1) 0%,
-      rgba(255, 198, 113, 1) 100%
-    );
+  background: rgb(162, 126, 63);
+  background: -webkit-gradient(
+    linear,
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
+  );
   border: 1px solid #ffc671;
 }
 
@@ -5588,19 +5613,19 @@ blockquote cite::before {
 }
 
 .comments-area .comment-respond .form-submit input {
-    background: rgb(162, 126, 63);
-    background: -webkit-gradient(
-      linear,
-      bottom,
-      top,
-      from(rgba(162, 126, 63, 1)),
-      to(rgba(255, 198, 113, 1))
-    );
-    background: linear-gradient(
-      0deg,
-      rgba(162, 126, 63, 1) 0%,
-      rgba(255, 198, 113, 1) 100%
-    );
+  background: rgb(162, 126, 63);
+  background: -webkit-gradient(
+    linear,
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
+  );
   border: 1px solid #ffc671;
   color: #ffffff;
   padding: 11px 25px;
@@ -6211,19 +6236,19 @@ Sidebar CSS
 }
 
 .widget-area .widget ul li::before {
-    background: rgb(162, 126, 63);
-    background: -webkit-gradient(
-      linear,
-      bottom,
-      top,
-      from(rgba(162, 126, 63, 1)),
-      to(rgba(255, 198, 113, 1))
-    );
-    background: linear-gradient(
-      0deg,
-      rgba(162, 126, 63, 1) 0%,
-      rgba(255, 198, 113, 1) 100%
-    );
+  background: rgb(162, 126, 63);
+  background: -webkit-gradient(
+    linear,
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
+  );
   height: 7px;
   width: 7px;
   content: "";
@@ -7301,19 +7326,19 @@ span.new {
 .quotes-slides
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background: rgb(162, 126, 63);
-    background: -webkit-gradient(
-      linear,
-      bottom,
-      top,
-      from(rgba(162, 126, 63, 1)),
-      to(rgba(255, 198, 113, 1))
-    );
-    background: linear-gradient(
-      0deg,
-      rgba(162, 126, 63, 1) 0%,
-      rgba(255, 198, 113, 1) 100%
-    );
+  background: rgb(162, 126, 63);
+  background: -webkit-gradient(
+    linear,
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
+  );
   border: 1px solid #ffc671;
 }
 

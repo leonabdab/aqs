@@ -23,12 +23,13 @@ import "../styles/responsive.css";
 
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
+import SwiperCore, { Autoplay } from 'swiper';
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
     AOS.init();
   }, []);
-  
+  SwiperCore.use([Autoplay])
   return (
     <>
       <Head>
