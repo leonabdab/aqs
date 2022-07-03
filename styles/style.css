@@ -186,7 +186,7 @@ a {
 a:hover,
 a:focus {
   outline: 0 !important;
-  color: #ff2c9c;
+  color: #ffc671;
   text-decoration: none;
 }
 
@@ -229,6 +229,7 @@ a:focus {
   margin: 0 auto;
   width: 100%;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
     bottom,
@@ -236,7 +237,6 @@ a:focus {
     from(rgba(162, 126, 63, 1)),
     to(rgba(255, 198, 113, 1))
   );
-  background: rgb(162, 126, 63);
   background: linear-gradient(
     0deg,
     rgba(162, 126, 63, 1) 0%,
@@ -250,27 +250,27 @@ a:focus {
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  color: #ff2c9c;
+  color: #ffc671;
   -webkit-box-shadow: unset;
   box-shadow: unset;
   background-color: transparent;
-  border-color: #ff2c9c;
+  border-color: #ffc671;
 }
 
 .btn-primary.disabled,
 .btn-primary:disabled {
   color: #ffffff;
   background-color: #ffffff;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  color: #ff2c9c;
+  color: #ffc671;
   -webkit-box-shadow: unset;
   box-shadow: unset;
   background-color: transparent;
-  border-color: #ff2c9c;
+  border-color: #ffc671;
 }
 
 .btn-primary:hover::before,
@@ -279,9 +279,9 @@ a:focus {
 }
 
 .btn-secondary {
-  color: #ff2c9c;
+  color: #ffc671;
   background-color: transparent;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 .btn-secondary::before {
@@ -294,23 +294,18 @@ a:focus {
   margin: 0 auto;
   width: 0;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   -webkit-transition: all 0.5s ease;
@@ -329,9 +324,9 @@ a:focus {
 
 .btn-secondary.disabled,
 .btn-secondary:disabled {
-  color: #ff2c9c;
+  color: #ffc671;
   background-color: transparent;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 .btn-secondary:hover,
@@ -349,8 +344,8 @@ a:focus {
 }
 
 .default-btn-two {
-  border: 2px solid #f9004d;
-  background: #f9004d;
+  border: 2px solid #c09c5d;
+  background: #c09c5d;
   color: #fff;
   border-radius: 6px;
   text-align: center;
@@ -364,8 +359,8 @@ a:focus {
 
 .default-btn-two:hover,
 .default-btn-two:focus {
-  border: 2px solid #000;
-  background: #000;
+  border: 2px solid #1d170b;
+  background: #1d170b;
   color: #fff;
 }
 
@@ -402,7 +397,7 @@ a:focus {
 .section-title .sub-title {
   display: block;
   margin-bottom: 10px;
-  color: #ff2c9c;
+  color: #c09c5d;
   font-weight: 600;
   font-size: 14px;
 }
@@ -436,7 +431,7 @@ label {
   background: #ffffff;
   -webkit-box-shadow: unset;
   box-shadow: unset;
-  border-color: #ff2c9c;
+  border-color: #ffc671;
 }
 
 /* Preloader CSS */
@@ -448,23 +443,18 @@ label {
   width: 100%;
   height: 100%;
   text-align: center;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
 }
 
@@ -572,23 +562,18 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item a::before {
   bottom: -5px;
   width: 0;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   height: 3px;
   -webkit-transition: all 0.5s ease;
@@ -659,7 +644,7 @@ Navbar CSS
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:hover,
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a:focus,
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -701,7 +686,7 @@ Navbar CSS
   .dropdown-menu
   li
   a.active {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .navbar-area nav .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -783,18 +768,18 @@ Navbar CSS
 
 .navbar-area.navbar-style-two nav .others-options .btn:hover,
 .navbar-area.navbar-style-two nav .others-options .btn:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
   background: transparent;
 }
 
 .navbar-area.navbar-style-two.is-sticky .others-options .btn {
-  color: #ff2c9c;
-  border-color: #ff2c9c;
+  color: #ffc671;
+  border-color: #ffc671;
 }
 
 .navbar-area.navbar-style-two.is-sticky .others-options .btn:hover,
 .navbar-area.navbar-style-two.is-sticky .others-options .btn:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
   color: #ffffff;
 }
 
@@ -928,7 +913,7 @@ Navbar CSS
   width: 28px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  background: #ff2c9c;
+  background: #ffc671;
   height: 2px;
   display: block;
 }
@@ -996,23 +981,18 @@ Main Banner CSS
   top: 0;
   width: 100%;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   opacity: 0.7;
@@ -1052,7 +1032,7 @@ Main Banner CSS
 
 .main-banner.gradient-banner .main-banner-content .btn-secondary:hover,
 .main-banner.gradient-banner .main-banner-content .btn-secondary:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
   background: transparent;
 }
 
@@ -1142,7 +1122,7 @@ Main Banner CSS
 }
 
 .hero-banner .main-banner-content span {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .hero-banner .main-banner-content h1 {
@@ -1180,7 +1160,7 @@ Main Banner CSS
 
 .hero-banner .main-banner-content .btn-secondary:hover,
 .hero-banner .main-banner-content .btn-secondary:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
   background: transparent;
 }
 
@@ -1337,7 +1317,7 @@ Main Banner CSS
 
 .hero-slider .swiper-button-prev:hover,
 .hero-slider .swiper-button-next:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
 }
 
 .hero-slider .swiper-button-prev:hover::after,
@@ -1360,25 +1340,20 @@ Main Banner CSS
 .hero-slider
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 .item-bg1 {
@@ -1513,7 +1488,7 @@ Main Banner CSS
 }
 
 .main-banner-content span {
-  color: #ff2c9c;
+  color: #ffc671;
   display: block;
   font-size: 20px;
   font-weight: 600;
@@ -1686,7 +1661,7 @@ Main Banner CSS
 
 .slider-area ul li .tp-caption.NotGeneric-SubTitle-paragraph,
 .slider-area ul li .NotGeneric-SubTitle-paragraph {
-  color: #ff2c9c !important;
+  color: #ffc671 !important;
   font-size: 18px !important;
 }
 
@@ -1719,7 +1694,7 @@ Main Banner CSS
 .slider-area ul li .tp-caption.NotGeneric-btn .btn-secondary:focus,
 .slider-area ul li .NotGeneric-btn .btn-secondary:hover,
 .slider-area ul li .NotGeneric-btn .btn-secondary:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
   background: transparent;
 }
 
@@ -1738,7 +1713,7 @@ Main Banner CSS
 }
 
 .video-studio .video-box .video-btn {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   color: #ffffff;
   font-size: 50px;
   width: 100px;
@@ -1748,13 +1723,13 @@ Main Banner CSS
 
 .video-studio .video-box .video-btn::after,
 .video-studio .video-box .video-btn::before {
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 .video-studio .video-box .video-btn:hover,
 .video-studio .video-box .video-btn:focus {
   background-color: #ffffff;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .video-studio .video-box .video-btn:hover::after,
@@ -1840,7 +1815,7 @@ Featured Services CSS
 
 .featured-services-box .icon {
   font-size: 45px;
-  color: #ff2c9c;
+  color: #ffc671;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -1873,23 +1848,18 @@ Featured Services CSS
   top: 0;
   width: 100%;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   opacity: 0;
@@ -2035,7 +2005,7 @@ Featured Services CSS
 
 .featured-services-slides .swiper-button-prev:hover,
 .featured-services-slides .swiper-button-next:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
 }
 
 .featured-services-slides .swiper-button-prev:hover::after,
@@ -2111,7 +2081,7 @@ About CSS
   position: absolute;
   left: 0;
   top: 6px;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .video-box {
@@ -2130,7 +2100,7 @@ About CSS
   transform: translateY(-50%);
   width: 90px;
   height: 90px;
-  background-color: #f9004d;
+  background-color: #ffc671;
   border-radius: 50%;
   color: #fff;
   font-size: 40px;
@@ -2151,7 +2121,7 @@ About CSS
   bottom: 0;
   left: 0;
   border-radius: 50%;
-  border: 1px solid #f9004d;
+  border: 1px solid #ffc671;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -2181,7 +2151,7 @@ About CSS
 
 .video-box .video-btn:hover,
 .video-box .video-btn:focus {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   color: #ffffff;
 }
 
@@ -2189,7 +2159,7 @@ About CSS
 .video-box .video-btn:hover::before,
 .video-box .video-btn:focus::after,
 .video-box .video-btn:focus::before {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
 }
 
 @-webkit-keyframes ripple {
@@ -2422,29 +2392,24 @@ Case Studies CSS
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   height: 2px;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
 }
 
 .tab .tabs li span:hover,
 .tab .tabs li span:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .tab .tabs li span:hover::before,
@@ -2453,7 +2418,7 @@ Case Studies CSS
 }
 
 .tab .tabs li.current span {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .tab .tabs li.current span::before {
@@ -2550,11 +2515,11 @@ Case Studies CSS
   display: inline-block;
   padding: 10px 25px;
   border-radius: 6px;
-  color: #ff2c9c !important;
+  color: #ffc671 !important;
 }
 
 .custom-btn:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   color: #ffffff !important;
 }
 
@@ -2592,7 +2557,7 @@ Case Studies CSS
 
 .work-slides .swiper-button-prev:hover,
 .work-slides .swiper-button-next:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
 }
 
 .work-slides .swiper-button-prev:hover::after,
@@ -2615,25 +2580,20 @@ Case Studies CSS
 .work-slides
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 /*================================================
@@ -2678,7 +2638,7 @@ Quotes CSS
   font-weight: 600;
   margin-bottom: 5px;
   margin-top: 25px;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .quotes-content span {
@@ -2700,23 +2660,18 @@ Services CSS
 }
 
 .services-inner {
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   padding-top: 110px;
   width: 100%;
@@ -2821,7 +2776,7 @@ Services CSS
   font-size: 30px;
   color: #ffffff;
   display: inline-block;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
   line-height: 65px;
   z-index: 1;
   position: relative;
@@ -2841,23 +2796,18 @@ Services CSS
   transform: translateY(-50%);
   right: 0;
   margin: 0 auto;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   border-radius: 50%;
@@ -2890,7 +2840,7 @@ Services CSS
 
 .single-services .content .read-more-btn:hover,
 .single-services .content .read-more-btn:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-services:hover .content,
@@ -2972,7 +2922,7 @@ Services CSS
 }
 
 .service-card-one h3 a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .service-card-one p {
@@ -2989,13 +2939,13 @@ Services CSS
 }
 
 .service-card-one.white-bg:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   margin-top: -5px;
 }
 
 .service-card-one.white-bg:hover i {
   background-color: #ffffff !important;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .service-card-one.white-bg:hover h3 {
@@ -3024,7 +2974,7 @@ Services CSS
 }
 
 .service-card-one .read-more {
-  color: #ff2c9c;
+  color: #ffc671;
   display: inline-block;
   margin-top: 15px;
 }
@@ -3085,11 +3035,11 @@ Services CSS
   position: absolute;
   left: 18px;
   top: 17px;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .feature-list:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   color: #ffffff;
   margin-left: 2px;
 }
@@ -3173,23 +3123,18 @@ Portfolio Details CSS
   position: absolute;
   left: 0;
   top: 11px;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   width: 8px;
   height: 8px;
@@ -3246,23 +3191,18 @@ Feedback CSS
 }
 
 .feedback-list .quotes-icon {
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   margin: 0 auto;
   width: 70px;
@@ -3296,23 +3236,18 @@ Feedback CSS
   margin: 20px auto;
   height: 35px;
   width: 2px;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
 }
 
@@ -3353,25 +3288,20 @@ Feedback CSS
 .feedback-slides
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
 }
 
 .client-image-box img {
@@ -3445,7 +3375,7 @@ Portfolio CSS
   top: 0;
   right: 0;
   bottom: 0;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
   z-index: 2;
   margin: 20px;
   padding: 25px;
@@ -3475,7 +3405,7 @@ Portfolio CSS
 }
 
 .single-portfolio .portfolio-content h3 a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-portfolio .portfolio-content .link-btn,
@@ -3490,7 +3420,7 @@ Portfolio CSS
 .single-portfolio .portfolio-content .link-btn:focus,
 .single-portfolio .portfolio-content .popup-btn:hover,
 .single-portfolio .portfolio-content .popup-btn:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-portfolio .portfolio-content .link-btn {
@@ -3638,23 +3568,18 @@ Team CSS
   transform: translateY(-50%);
   right: 0;
   margin: 0 auto;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   width: 0;
   height: 0;
@@ -3675,23 +3600,18 @@ Team CSS
 }
 
 .single-team .team-content {
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   padding: 25px 30px;
 }
@@ -3771,7 +3691,7 @@ Team CSS
 }
 
 .team-card .team-caption ul li i:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   color: #ffffff;
 }
 
@@ -3781,23 +3701,18 @@ Team CSS
 
 .team-card .team-img .social-links {
   position: absolute;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   width: 100%;
   height: 0%;
@@ -3836,7 +3751,7 @@ Team CSS
 }
 
 .team-card .team-img ul li i:hover {
-  background-color: #ff2c9c;
+  background-color: #ffc671;
   color: #ffffff;
 }
 
@@ -3913,23 +3828,18 @@ Pricing CSS
   width: 100%;
   height: 100%;
   border-radius: 5px 5px 0 0;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   opacity: 0;
   visibility: hidden;
@@ -3952,7 +3862,7 @@ Pricing CSS
 }
 
 .pricing-table .price span {
-  color: #ff2c9c;
+  color: #ffc671;
   font-size: 40px;
 }
 
@@ -4012,7 +3922,7 @@ Pricing CSS
 
 .pricing-table.active-plan .btn-primary::after,
 .pricing-table.active-plan .btn-primary::before {
-  background: #ff2c9c;
+  background: #ffc671;
 }
 
 /*================================================
@@ -4080,7 +3990,7 @@ Pricing Area CSS
 }
 
 .single-pricing-table .pricing-features li i {
-  color: #ff2c9c;
+  color: #ffc671;
   position: absolute;
   left: 0;
   top: 3px;
@@ -4128,7 +4038,7 @@ Pricing Area CSS
 }
 
 .pricing-list-tab .tabs li i {
-  color: #ff2c9c;
+  color: #ffc671;
   margin-right: 2px;
   position: absolute;
   font-size: 18px;
@@ -4140,7 +4050,7 @@ Pricing Area CSS
 
 .pricing-list-tab .tabs li.current {
   color: #ffffff;
-  background-color: #ff2c9c;
+  background-color: #ffc671;
 }
 
 .pricing-list-tab .tabs li.current i {
@@ -4370,24 +4280,19 @@ CTA CSS
 }
 
 .cta-area.bg-gradient {
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  ) !important;
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  ) !important;
+    background: rgb(162, 126, 63);
+    background: -webkit-gradient(
+      linear,
+      bottom,
+      top,
+      from(rgba(162, 126, 63, 1)),
+      to(rgba(255, 198, 113, 1))
+    ) !important;
+    background: linear-gradient(
+      0deg,
+      rgba(162, 126, 63, 1) 0%,
+      rgba(255, 198, 113, 1) 100%
+    ) !important;
 }
 
 .cta-area.bg-gradient .cta-content h3 {
@@ -4400,7 +4305,7 @@ CTA CSS
 }
 
 .cta-area.bg-gradient .cta-btn-box .btn-primary {
-  color: #ff2c9c;
+  color: #ffc671;
   padding: 15px 35px;
   font-size: 16px;
 }
@@ -4440,24 +4345,19 @@ CTA CSS
 }
 
 .cta-area-two::before {
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  );
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  );
+    background: rgb(162, 126, 63);
+    background: -webkit-gradient(
+      linear,
+      bottom,
+      top,
+      from(rgba(162, 126, 63, 1)),
+      to(rgba(255, 198, 113, 1))
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(162, 126, 63, 1) 0%,
+      rgba(255, 198, 113, 1) 100%
+    );
   position: absolute;
   height: 100%;
   width: 100%;
@@ -4559,7 +4459,7 @@ Fun Facts CSS
 
 .funfact i {
   font-size: 30px;
-  color: #ff2c9c;
+  color: #ffc671;
   width: 70px;
   height: 70px;
   line-height: 70px;
@@ -4620,7 +4520,7 @@ Fun Facts CSS
   line-height: 1;
   margin-bottom: 20px;
   display: inline-block;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .funfact-card h3 {
@@ -4719,23 +4619,18 @@ Subscribe CSS
   height: 100%;
   left: 0;
   top: 0;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   opacity: 0.9;
 }
@@ -4772,23 +4667,18 @@ Subscribe CSS
 
 .newsletter-inner-area .newsletter-content .newsletter-form button {
   position: absolute;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   color: #ffffff;
   border: none;
@@ -4861,7 +4751,7 @@ Blog CSS
   display: inline-block;
   margin-right: 18px;
   position: relative;
-  color: #ff2c9c;
+  color: #ffc671;
   padding-left: 20px;
   font-size: 14px;
   font-style: italic;
@@ -4869,12 +4759,12 @@ Blog CSS
 
 .single-blog-post .post-content .post-meta li a {
   display: inline-block;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-blog-post .post-content .post-meta li a:hover,
 .single-blog-post .post-content .post-meta li a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-blog-post .post-content .post-meta li i {
@@ -4924,7 +4814,7 @@ Blog CSS
 
 .single-blog-post .post-content h3 a:hover,
 .single-blog-post .post-content h3 a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-blog-post:hover .post-image img,
@@ -4968,7 +4858,7 @@ Blog CSS
   display: inline-block;
   margin-right: 18px;
   position: relative;
-  color: #ff2c9c;
+  color: #ffc671;
   padding-left: 20px;
   font-size: 14px;
   font-style: italic;
@@ -4976,12 +4866,12 @@ Blog CSS
 
 .blog-item-box .blog-item .post-content .post-meta li a {
   display: inline-block;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .blog-item-box .blog-item .post-content .post-meta li a:hover,
 .blog-item-box .blog-item .post-content .post-meta li a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .blog-item-box .blog-item .post-content .post-meta li i {
@@ -5031,7 +4921,7 @@ Blog CSS
 
 .blog-item-box .blog-item .post-content h3 a:hover,
 .blog-item-box .blog-item .post-content h3 a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .blog-item-box .blog-item .post-image {
@@ -5117,7 +5007,7 @@ Blog CSS
 }
 
 .single-blog-item .blog-image .post-tag a {
-  background: #ff2c9c;
+  background: #ffc671;
   color: #ffffff;
   padding: 9px 28px;
 }
@@ -5127,7 +5017,7 @@ Blog CSS
 }
 
 .single-blog-item .blog-post-content .date {
-  color: #ff2c9c;
+  color: #ffc671;
   display: block;
   text-transform: uppercase;
   font-size: 14px;
@@ -5148,7 +5038,7 @@ Blog CSS
 
 .single-blog-item .blog-post-content h3 a:hover,
 .single-blog-item .blog-post-content h3 a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-blog-item .blog-post-content p {
@@ -5168,7 +5058,7 @@ Blog CSS
 
 .single-blog-item:hover .blog-image .post-tag a,
 .single-blog-item:focus .blog-image .post-tag a {
-  background: #ff2c9c;
+  background: #ffc671;
   color: #ffffff;
 }
 
@@ -5187,25 +5077,20 @@ Blog CSS
 .blog-slides
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  );
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  );
-  border: 1px solid #ff2c9c;
+    background: rgb(162, 126, 63);
+    background: -webkit-gradient(
+      linear,
+      bottom,
+      top,
+      from(rgba(162, 126, 63, 1)),
+      to(rgba(255, 198, 113, 1))
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(162, 126, 63, 1) 0%,
+      rgba(255, 198, 113, 1) 100%
+    );
+  border: 1px solid #ffc671;
 }
 
 /*================================================
@@ -5234,7 +5119,7 @@ Blog Details CSS
 }
 
 .blog-details .article-content .entry-meta li i {
-  color: #ff2c9c;
+  color: #ffc671;
   margin-right: 6px;
 }
 
@@ -5248,7 +5133,7 @@ Blog Details CSS
 }
 
 .blog-details .article-content .entry-meta li a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .blog-details .article-content .category {
@@ -5267,11 +5152,11 @@ Blog Details CSS
 }
 
 .blog-details .article-content .category li a {
-  border: 1px solid #ff2c9c;
+  border: 1px solid #ffc671;
   border-radius: 5px;
   padding: 4px 15px;
   font-size: 13px;
-  color: #ff2c9c;
+  color: #ffc671;
   position: relative;
   z-index: 1;
   margin: 5px 0;
@@ -5285,23 +5170,18 @@ Blog Details CSS
   top: 0;
   width: 100%;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   border-radius: 5px;
@@ -5337,7 +5217,7 @@ blockquote::before {
   position: absolute;
   left: 30px;
   top: 35px;
-  color: #ff2c9c;
+  color: #ffc671;
   font-size: 25px;
   font-style: normal;
 }
@@ -5359,23 +5239,18 @@ blockquote cite::before {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   left: 0;
   width: 10px;
@@ -5417,23 +5292,18 @@ blockquote cite::before {
   top: 0;
   width: 100%;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   border-radius: 5px;
@@ -5445,7 +5315,7 @@ blockquote cite::before {
 
 .post-controls-buttons div a:hover,
 .post-controls-buttons div a:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
   color: #ffffff;
 }
 
@@ -5493,8 +5363,8 @@ blockquote cite::before {
 }
 
 .comments-area .comment-body .reply a {
-  border: 1px solid #ff2c9c;
-  color: #ff2c9c;
+  border: 1px solid #ffc671;
+  color: #ffc671;
   display: inline-block;
   padding: 5px 20px 6px;
   border-radius: 30px;
@@ -5510,23 +5380,18 @@ blockquote cite::before {
   top: 0;
   width: 100%;
   height: 100%;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   opacity: 0;
   visibility: hidden;
@@ -5585,7 +5450,7 @@ blockquote cite::before {
 }
 
 .comments-area .comment-metadata a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .comments-area .comment-content p {
@@ -5673,7 +5538,7 @@ blockquote cite::before {
 .comments-area .comment-respond input[type="tel"]:focus,
 .comments-area .comment-respond input[type="number"]:focus,
 .comments-area .comment-respond textarea:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
 }
 
 .comments-area .comment-respond .comment-form-author {
@@ -5723,25 +5588,20 @@ blockquote cite::before {
 }
 
 .comments-area .comment-respond .form-submit input {
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  );
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  );
-  border: 1px solid #ff2c9c;
+    background: rgb(162, 126, 63);
+    background: -webkit-gradient(
+      linear,
+      bottom,
+      top,
+      from(rgba(162, 126, 63, 1)),
+      to(rgba(255, 198, 113, 1))
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(162, 126, 63, 1) 0%,
+      rgba(255, 198, 113, 1) 100%
+    );
+  border: 1px solid #ffc671;
   color: #ffffff;
   padding: 11px 25px;
   display: inline-block;
@@ -6089,7 +5949,7 @@ Contact CSS
   background: #f7fafd;
   border-radius: 50%;
   font-size: 30px;
-  color: #ff2c9c;
+  color: #ffc671;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: absolute;
@@ -6112,7 +5972,7 @@ Contact CSS
 }
 
 .contact-info-box p a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .contact-info-box:hover {
@@ -6122,7 +5982,7 @@ Contact CSS
 
 .contact-info-box:hover .icon {
   color: #ffffff;
-  background: #ff2c9c;
+  background: #ffc671;
 }
 
 #map {
@@ -6195,7 +6055,7 @@ textarea.form-control {
 
 .contact-sidebar .contact-item .icon {
   font-size: 35px;
-  color: #ff2c9c;
+  color: #ffc671;
   position: absolute;
   left: 0;
   top: 0;
@@ -6218,7 +6078,7 @@ textarea.form-control {
 }
 
 .contact-sidebar .contact-item p a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 /*================================================
@@ -6258,7 +6118,7 @@ textarea.form-control {
   -webkit-box-shadow: unset;
   box-shadow: unset;
   border: none;
-  background: #ff2c9c;
+  background: #ffc671;
   color: #ffffff;
   font-weight: 600;
   -webkit-transition: all 0.5s ease;
@@ -6305,7 +6165,7 @@ Pagination CSS
 .pagination-area .page-numbers.current,
 .pagination-area .page-numbers:hover,
 .pagination-area .page-numbers:focus {
-  background: #ff2c9c;
+  background: #ffc671;
   color: #ffffff;
   -webkit-box-shadow: unset;
   box-shadow: unset;
@@ -6351,24 +6211,19 @@ Sidebar CSS
 }
 
 .widget-area .widget ul li::before {
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  );
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  );
+    background: rgb(162, 126, 63);
+    background: -webkit-gradient(
+      linear,
+      bottom,
+      top,
+      from(rgba(162, 126, 63, 1)),
+      to(rgba(255, 198, 113, 1))
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(162, 126, 63, 1) 0%,
+      rgba(255, 198, 113, 1) 100%
+    );
   height: 7px;
   width: 7px;
   content: "";
@@ -6383,7 +6238,7 @@ Sidebar CSS
 
 .widget-area .widget ul li a:hover,
 .widget-area .widget ul li a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .widget-area .widget_search form {
@@ -6415,7 +6270,7 @@ Sidebar CSS
   cursor: pointer;
   top: 0;
   right: 0;
-  background: #ff2c9c;
+  background: #ffc671;
   outline: 0;
   border: none;
   color: #ffffff;
@@ -6499,7 +6354,7 @@ Sidebar CSS
 }
 
 .widget-area .widget_posts_thumb .item .info .title a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .widget-area .widget_recent_entries ul li {
@@ -6513,7 +6368,7 @@ Sidebar CSS
 }
 
 .widget-area .widget_recent_entries ul li a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .widget-area .widget_recent_entries ul li .post-date {
@@ -6538,7 +6393,7 @@ Sidebar CSS
 }
 
 .widget-area .widget_recent_comments ul li a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .widget-area .widget_archive ul li a {
@@ -6574,7 +6429,7 @@ Sidebar CSS
 .widget-area .tagcloud a:hover,
 .widget-area .tagcloud a:focus {
   color: #ffffff;
-  background-color: #ff2c9c;
+  background-color: #ffc671;
 }
 
 /*================================================
@@ -6648,7 +6503,7 @@ Case Studies Details CSS
 }
 
 .case-studies-information ul li a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 /*================================================
@@ -6762,7 +6617,7 @@ Portfolio Details CSS
 }
 
 .portfolio-information ul li a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .service-details-info {
@@ -6823,7 +6678,7 @@ Portfolio Details CSS
 }
 
 .service-details-info .single-info-box .social li a:hover {
-  color: #ff2c9c;
+  color: #ffc671;
   -webkit-transform: translateY(-2px);
   transform: translateY(-2px);
 }
@@ -6833,8 +6688,8 @@ Portfolio Details CSS
   padding: 12px 30px;
   color: #ffffff;
   text-transform: capitalize;
-  background-color: #ff2c9c;
-  border: 1px solid #ff2c9c;
+  background-color: #ffc671;
+  border: 1px solid #ffc671;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 30px;
@@ -6844,7 +6699,7 @@ Portfolio Details CSS
 
 .service-details-info .single-info-box .default-btn:hover {
   background-color: #ffffff;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .service-details-info .single-info-box:last-child {
@@ -6860,7 +6715,7 @@ Portfolio Details CSS
 }
 
 .pd-preview-img .video-box .video-btn {
-  background-color: #f9004d;
+  background-color: #ffc671;
   color: #fff;
   width: 90px;
   height: 90px;
@@ -6868,7 +6723,7 @@ Portfolio Details CSS
 
 .pd-preview-img .video-box .video-btn:before,
 .pd-preview-img .video-box .video-btn:after {
-  border: 1px solid #f9004d;
+  border: 1px solid #ffc671;
 }
 
 /*================================================
@@ -6905,7 +6760,7 @@ FAQ CSS
 .faq-accordion .accordion .accordion__item .accordion__button:hover,
 .faq-accordion .accordion .accordion__item .accordion__button.active,
 .faq-accordion .accordion .accordion__item .accordion__button:focus {
-  background: #ff2c9c;
+  background: #ffc671;
   color: #ffffff;
   outline: 0;
 }
@@ -7001,23 +6856,18 @@ Footer CSS
   transform: translateY(-50%);
   right: 0;
   margin: 0 auto;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   width: 0;
   height: 0;
@@ -7053,23 +6903,18 @@ Footer CSS
   bottom: -2px;
   width: 55px;
   height: 3px;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
 }
 
@@ -7105,23 +6950,18 @@ Footer CSS
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   width: 10px;
   height: 2px;
@@ -7133,7 +6973,7 @@ Footer CSS
 
 .single-footer-widget ul.list li a:hover,
 .single-footer-widget ul.list li a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
   padding-left: 15px;
 }
 
@@ -7168,23 +7008,18 @@ Footer CSS
   height: 35px;
   line-height: 35px;
   color: #ffffff;
+  background: rgb(162, 126, 63);
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   border-radius: 50%;
   text-align: center;
@@ -7208,7 +7043,7 @@ Footer CSS
 
 .single-footer-widget ul.get-in-touch li a:hover,
 .single-footer-widget ul.get-in-touch li a:focus {
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .single-footer-widget ul.get-in-touch li:last-child {
@@ -7230,7 +7065,7 @@ Footer CSS
 
 .copyright-area p a {
   display: inline-block;
-  color: #ff2c9c;
+  color: #ffc671;
 }
 
 .copyright-area p a:hover,
@@ -7291,7 +7126,7 @@ Go Top CSS
 
 .scroll-to-top i:hover {
   color: #ffffff;
-  background: #ff2c9c;
+  background: #ffc671;
 }
 
 .lang-didebar {
@@ -7315,7 +7150,7 @@ Go Top CSS
 
 span.new {
   position: absolute;
-  background: #f9004d;
+  background: #ffc671;
   color: #fff;
   font-weight: 400;
   padding: 1px 5px;
@@ -7366,7 +7201,7 @@ span.new {
 }
 
 .coming-soon-content .coming-soon-countdown li span {
-  color: #ff2c9c;
+  color: #ffc671;
   font-size: 40px;
   font-weight: 700;
 }
@@ -7424,7 +7259,7 @@ span.new {
 }
 
 .coming-soon-content form .input-newsletter:focus {
-  border-color: #ff2c9c;
+  border-color: #ffc671;
 }
 
 .coming-soon-content form .input-newsletter:focus::-webkit-input-placeholder {
@@ -7466,25 +7301,20 @@ span.new {
 .quotes-slides
   .swiper-pagination
   .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: -webkit-gradient(
-    linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
-  );
-  background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
-  );
-  border: 1px solid #ff2c9c;
+    background: rgb(162, 126, 63);
+    background: -webkit-gradient(
+      linear,
+      bottom,
+      top,
+      from(rgba(162, 126, 63, 1)),
+      to(rgba(255, 198, 113, 1))
+    );
+    background: linear-gradient(
+      0deg,
+      rgba(162, 126, 63, 1) 0%,
+      rgba(255, 198, 113, 1) 100%
+    );
+  border: 1px solid #ffc671;
 }
 
 .curve-shape,
@@ -7505,7 +7335,7 @@ span.new {
 }
 
 .partner-slides .swiper-button-prev:after {
-  color: #ff2c9c;
+  color: #ffc671;
   font-size: 26px;
 }
 
@@ -7514,7 +7344,7 @@ span.new {
 }
 
 .partner-slides .swiper-button-next:after {
-  color: #ff2c9c;
+  color: #ffc671;
   font-size: 26px;
 }
 /*# sourceMappingURL=style.css.map */
