@@ -1,15 +1,16 @@
 import React, { Component } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+
 export default class OurClients extends Component {
   render() {
     return (
       <>
-        <div className="partner-area bg-1b2232 ptb-70">
-          <div className="container">
+        <div className="partner-area bg-1b2232 ptb-100">
+          <div className="container text-center">
             <Swiper
               navigation={true}
-              spaceBetween={30}
+              spaceBetween={50}
               breakpoints={{
                 0: {
                   slidesPerView: 2,
@@ -32,78 +33,67 @@ export default class OurClients extends Component {
             >
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white1.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img src="/images/aqs/partners/bmw-logo.png" alt="bmw" />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white2.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img src="/images/aqs/partners/audi-logo.png" alt="audi" />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white3.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img src="/images/aqs/partners/ford-logo.svg" alt="ford" />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white4.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img src="/images/aqs/partners/skoda-logo.svg" alt="skoda" />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white5.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img src="/images/aqs/partners/dekra-logo.jpeg" alt="dekra" />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white6.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/aqs/partners/diehls-logo.png"
+                    alt="diehls"
+                  />
                 </div>
               </SwiperSlide>
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <a href="#" className="d-inline-block" target="_blank">
-                    <img
-                      src="/images/business-consulting/partner-white4.png"
-                      alt="image"
-                    />
-                  </a>
+                  <img
+                    src="/images/aqs/partners/audiofon-logo.png"
+                    alt="audiofon"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="partner-item text-center">
+                  <img
+                    src="/images/aqs/partners/parker-logo.png"
+                    alt="parker"
+                  />
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <div className="partner-item text-center">
+                  <img
+                    src="/images/aqs/partners/tristone-logo.png"
+                    alt="tristone"
+                  />
                 </div>
               </SwiperSlide>
             </Swiper>

@@ -4,7 +4,7 @@ import Link from "../../utils/ActiveLink";
 import { TransFn } from "../../utils/types";
 
 interface Props {
-  t: TransFn
+  t: TransFn;
 }
 class Navbar extends Component<Props> {
   // Navbar
@@ -75,25 +75,25 @@ class Navbar extends Component<Props> {
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
+                    <Link href="/about" activeClassName="active">
                       <a className="nav-link">{this.props.t("about")}</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
+                    <Link href="/services" activeClassName="active">
                       <a className="nav-link">{this.props.t("services")}</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
+                    <Link href="/career" activeClassName="active">
                       <a className="nav-link">{this.props.t("career")}</a>
                     </Link>
                   </li>
 
                   <li className="nav-item">
-                    <Link href="/contact" activeClassName="active">
+                    <Link href="/resources" activeClassName="active">
                       <a className="nav-link">{this.props.t("resources")}</a>
                     </Link>
                   </li>
@@ -103,167 +103,6 @@ class Navbar extends Component<Props> {
                       <a className="nav-link">{this.props.t("contact")}</a>
                     </Link>
                   </li>
-
-                  {/* TODO: REMOVE BELOW */}
-                  {/* <li className="nav-item">
-                    <Link href="#">
-                      <a
-                        className="nav-link"
-                        onClick={(e) => e.preventDefault()}
-                      >
-                        TO REMOVE - all PAGES
-                        <i className="icofont-thin-down"></i>
-                      </a>
-                    </Link>
-
-                    <ul className="dropdown-menu mega-dropdown-menu">
-                      <li className="nav-item">
-                        <Link href="/" activeClassName="active">
-                          <a className="nav-link">Default Home</a>
-                        </Link>
-
-                        <Link href="/creative-agency" activeClassName="active">
-                          <a className="nav-link">Creative Agency</a>
-                        </Link>
-
-                        <Link href="/it-agency" activeClassName="active">
-                          <a className="nav-link">IT Agency</a>
-                        </Link>
-
-                        <Link href="/marketing-agency" activeClassName="active">
-                          <a className="nav-link">Marketing Agency</a>
-                        </Link>
-
-                        <Link href="/portfolio-agency" activeClassName="active">
-                          <a className="nav-link">Portfolio Agency</a>
-                        </Link>
-
-                        <Link href="/studio-agency" activeClassName="active">
-                          <a className="nav-link">Studio Agency</a>
-                        </Link>
-
-                        <Link href="/business-agency" activeClassName="active">
-                          <a className="nav-link">Business Agency</a>
-                        </Link>
-
-                        <Link href="/startup-agency" activeClassName="active">
-                          <a className="nav-link">Startup Agency</a>
-                        </Link>
-
-                        <Link href="/software-startup" activeClassName="active">
-                          <a className="nav-link">
-                            Software Startup <span className="new">New</span>
-                          </a>
-                        </Link>
-
-                        <Link
-                          href="/digital-marketing"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">
-                            Digital Marketing <span className="new">New</span>
-                          </a>
-                        </Link>
-
-                        <Link
-                          href="/business-consulting"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">
-                            Business Consulting <span className="new">New</span>
-                          </a>
-                        </Link>
-
-                        <Link
-                          href="/freelancer-portfolio"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">
-                            Freelancer Portfolio{" "}
-                            <span className="new">New</span>
-                          </a>
-                        </Link>
-                      </li>
-
-                      <li className="nav-item">
-                        <Link href="/default-home-2" activeClassName="active">
-                          <a className="nav-link">Default Home Two</a>
-                        </Link>
-
-                        <Link
-                          href="/creative-agency-2"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">Creative Agency Two</a>
-                        </Link>
-
-                        <Link href="/it-agency-2" activeClassName="active">
-                          <a className="nav-link">IT Agency Two</a>
-                        </Link>
-
-                        <Link
-                          href="/marketing-agency-2"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">Marketing Agency Two</a>
-                        </Link>
-
-                        <Link
-                          href="/portfolio-agency-2"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">Portfolio Agency Two</a>
-                        </Link>
-
-                        <Link href="/studio-agency-2" activeClassName="active">
-                          <a className="nav-link">Studio Agency Two</a>
-                        </Link>
-
-                        <Link
-                          href="/business-agency-2"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">Business Agency Two</a>
-                        </Link>
-
-                        <Link href="/startup-agency-2" activeClassName="active">
-                          <a className="nav-link">Startup Agency Two</a>
-                        </Link>
-
-                        <Link href="/app-showcase" activeClassName="active">
-                          <a className="nav-link">
-                            App Showcase <span className="new">New</span>
-                          </a>
-                        </Link>
-
-                        <Link
-                          href="/personal-portfolio"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">
-                            Personal Portfolio <span className="new">New</span>
-                          </a>
-                        </Link>
-
-                        <Link href="/saas-startup" activeClassName="active">
-                          <a className="nav-link">
-                            SaaS Startup <span className="new">New</span>
-                          </a>
-                        </Link>
-
-                        <Link
-                          href="/cyber-security-agency"
-                          activeClassName="active"
-                        >
-                          <a className="nav-link">
-                            Cyber Security Agency{" "}
-                            <span className="new">New</span>
-                          </a>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li> */}
-                  {/* TODO: REMOVE END */}
                 </ul>
               </div>
             </div>

@@ -28,7 +28,6 @@ const INITIAL_STATE = {
 };
 
 const ContactForm = () => {
-
     const { t } = useTranslation('contactForm')
 
     const [contact, setContact] = useState(INITIAL_STATE);

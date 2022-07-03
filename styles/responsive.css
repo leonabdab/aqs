@@ -590,6 +590,10 @@
   .page-title-area h2 {
     font-size: 24px;
   }
+  .page-title-area h4 {
+    font-size: 24px;
+    color: #fff;
+  }
   .about-content {
     margin-top: 35px;
   }
@@ -2102,7 +2106,7 @@
     font-size: 14px;
   }
   .hero-banner .main-banner-content.left {
-    max-width: 630px;
+    max-width: 830px;
     margin-left: 80px;
   }
   .main-banner.startup-agency .container {

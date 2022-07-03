@@ -9,8 +9,11 @@ $value_five: 992px;
 $value_six: 1199px;
 $value_seven: 1650px;
 
-$main-color: #ff2c9c;
-$gradient-color: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+$main-color: #ffc671;
+$gradient-color:linear-gradient(
+    to left top,
+    #4292ff, #388cff, #2e86ff, #2380ff, #177aff
+  );
 $font-size: 14px;
 $black-color: #000000;
 $paragraph-color: #646464;

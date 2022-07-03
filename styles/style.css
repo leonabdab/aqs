@@ -216,7 +216,7 @@ a:focus {
 .btn-primary {
   color: #ffffff;
   background-color: #ffffff;
-  border: 1px solid #ff2c9c;
+  border: 1px solid #a27e3f;
 }
 
 .btn-primary::before {
@@ -231,21 +231,16 @@ a:focus {
   height: 100%;
   background: -webkit-gradient(
     linear,
-    right bottom,
-    left top,
-    from(#ff2c9c),
-    color-stop(#ff287b),
-    color-stop(#ff395a),
-    color-stop(#ff5137),
-    to(#ff6a00)
+    bottom,
+    top,
+    from(rgba(162, 126, 63, 1)),
+    to(rgba(255, 198, 113, 1))
   );
+  background: rgb(162, 126, 63);
   background: linear-gradient(
-    to left top,
-    #ff2c9c,
-    #ff287b,
-    #ff395a,
-    #ff5137,
-    #ff6a00
+    0deg,
+    rgba(162, 126, 63, 1) 0%,
+    rgba(255, 198, 113, 1) 100%
   );
   z-index: -1;
   -webkit-transition: all 0.5s ease;
@@ -1143,7 +1138,7 @@ Main Banner CSS
 }
 
 .hero-banner .main-banner-content.left {
-  max-width: 800px;
+  max-width: 1000px;
 }
 
 .hero-banner .main-banner-content span {
@@ -1417,6 +1412,21 @@ Main Banner CSS
   background-image: url(/images/main-banner6.jpg);
 }
 
+.hero-img-1 {
+  background-position: center center;
+  background-image: url(/images/main-banner/factory-large.jpeg);
+}
+
+.hero-img-2 {
+  background-position: center center;
+  background-image: url(/images/main-banner/welder-large.jpeg);
+}
+
+.hero-img-3 {
+  background-position: center center;
+  background-image: url(/images/main-banner/modern-factory-large.jpeg);
+}
+
 .hero-bg1 {
   background-position: center center;
   background-image: url(/images/hero-banner1.jpg);
@@ -1513,7 +1523,6 @@ Main Banner CSS
   font-size: 62px;
   font-weight: 800;
   margin: 12px 0 30px;
-  text-transform: capitalize;
 }
 
 .main-banner-content p {
@@ -5794,6 +5803,11 @@ Page Title CSS
   font-size: 50px;
 }
 
+.page-title-area h4 {
+  margin: 0;
+  color: #ededed;
+}
+
 .page-title-area::before {
   content: "";
   background-color: #18181b;
@@ -5810,7 +5824,7 @@ Page Title CSS
 }
 
 .page-title-area.bg-one {
-  background: transparent url(/images/page-banner1.jpg) right top no-repeat;
+  background: transparent url(/images/page-banner1.jpeg) right top no-repeat;
   background-size: cover;
   background-position: center center;
 }

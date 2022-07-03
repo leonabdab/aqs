@@ -1,41 +1,37 @@
-import React, { Component } from 'react';
-import NavbarTwo from '../components/Layouts/NavbarTwo';
-import PageBanner from '../components/Common/PageBanner';
-import AboutContent from '../components/About/AboutContent';
-import FunFactsTwo from '../components/Common/FunFactsTwo';
-import TeamStyleThree from '../components/Common/TeamStyleThree';
-import Feedback from '../components/Common/Feedback';
-import Partner from '../components/Common/Partner';
-import CtaAreaTwo from '../components/Common/CtaAreaTwo';
-import Footer from '../components/Layouts/Footer';
+import React, { Component } from "react";
+import NavbarTwo from "../components/Layouts/NavbarTwo";
+import PageBanner from "../components/Common/PageBanner";
+import AboutContent from "../components/About/AboutContent";
+import FunFactsTwo from "../components/Common/FunFactsTwo";
+import TeamStyleThree from "../components/Common/TeamStyleThree";
+import Feedback from "../components/Common/Feedback";
+import Partner from "../components/Common/Partner";
+import CtaAreaTwo from "../components/Common/CtaAreaTwo";
+import Footer from "../components/Layouts/Footer";
+import { useTranslation } from "react-i18next";
 
-class Aabout extends Component {
-    render() {
-        return (
-            <>
-                <NavbarTwo />
+const About = () => {
+  const { t } = useTranslation("about");
 
-                <PageBanner 
-                    pageTitle="About Us" 
-                    BGImage="bg-one"
-                />  
+  return (
+    <>
+      <NavbarTwo />
+      <PageBanner pageTitle={t("mainText.1")} secondaryText={t("mainText.2")} BGImage="bg-one" />
+      <AboutContent />
 
-                <AboutContent />
+      <FunFactsTwo />
 
-                <FunFactsTwo />
+      <TeamStyleThree />
 
-                <TeamStyleThree />
+      <Feedback />
 
-                <Feedback />
+      <Partner />
 
-                <Partner />
+      <CtaAreaTwo />
 
-                <CtaAreaTwo />
-                
-                <Footer/>
-            </>
-        );
-    }
-}
+      <Footer />
+    </>
+  );
+};
 
-export default Aabout;
+export default About;

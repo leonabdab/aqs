@@ -1,46 +1,39 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
-import MainBanner from '../components/HomePages/DefaultHome/MainBanner';
-import Services from '../components/HomePages/DefaultHome/Services';
-import About from '../components/HomePages/DefaultHome/About';
-import OurWorks from '../components/HomePages/DefaultHome/OurWorks';
-import WorkProcess from '../components/HomePages/DefaultHome/WorkProcess';
-import Feedback from '../components/Common/Feedback';
-import Team from '../components/Common/Team';
-import FunFacts from '../components/Common/FunFacts';
-import LatestNewsSlider from '../components/Common/LatestNewsSlider';
-import CtaArea from '../components/Common/CtaArea';
-import Partner from '../components/Common/Partner';
-import Footer from '../components/Layouts/Footer';
+import MainBanner from '../components/HomePages/BusinessAgency/MainBanner';
+import Features from '../components/HomePages/BusinessConsulting/Features';
+import WhoWeAre from '../components/HomePages/BusinessConsulting/WhoWeAre';
+import Services from './../components/HomePages/BusinessConsulting/Services';
+import Funfacts from '../components/HomePages/BusinessConsulting/Funfacts';
+import WhatWeDo from '../components/HomePages/BusinessConsulting/WhatWeDo';
+import TeamMembers from '../components/HomePages/BusinessConsulting/TeamMembers';
+import Pricing from '../components/HomePages/BusinessConsulting/Pricing';
+import CallToAction from '../components/HomePages/BusinessConsulting/CallToAction';
+import LatestNews from '../components/HomePages/BusinessConsulting/LatestNews';
+import OurClients from '../components/HomePages/BusinessConsulting/OurClients';
+import Newsletter from '../components/Common/Newsletter';
+import Footer from '../components/Layouts/Footer'; 
+import NavbarTwo from '../components/Layouts/NavbarTwo';
 
 class Index extends Component {
     render() {
         return (
             <>
-                <Navbar />
-
+                <NavbarTwo />
                 <MainBanner />
-
+                <WhoWeAre />
+                <Features />
                 <Services />
-
-                <About />
-
-                <OurWorks />
-
-                <WorkProcess />
-
-                <Feedback />
-
-                <Team />
-
-                <FunFacts />
-
-                <LatestNewsSlider />
-
-                <CtaArea />
-
-                <Partner />
-                
+                <Funfacts />
+                <WhatWeDo />
+                <TeamMembers />
+                <Pricing />
+                <CallToAction />
+                <LatestNews />
+                <OurClients />
+                <div className='ptb-100'>
+                    <Newsletter />
+                </div>
                 <Footer />
             </>
         );
