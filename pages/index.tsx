@@ -6,9 +6,10 @@ import WhatWeDo from '../components/HomePages/BusinessConsulting/WhatWeDo';
 import CallToAction from '../components/HomePages/BusinessConsulting/CallToAction';
 import LatestNews from '../components/HomePages/BusinessConsulting/LatestNews';
 import OurClients from '../components/HomePages/BusinessConsulting/OurClients';
-import Footer from '../components/Layouts/Footer'; 
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import Services from '../components/Services/Services';
+import OurWorks from '../components/HomePages/BusinessAgency/OurWorks';
+import Footer from '../components/Layouts/FooterDark';
 
 class Index extends Component {
     render() {
@@ -17,11 +18,12 @@ class Index extends Component {
                 <NavbarTwo />
                 <MainBanner />
                 <WhoWeAre />
-                <CallToAction />
+                <OurWorks />
+                {/* <CallToAction /> */}
                 <WhatWeDo />
                 <Services />
-                <Features />
-                <LatestNews />
+                {/* <Features /> */}
+                {/* <LatestNews /> */}
                 <OurClients />
                 <Footer />
             </>

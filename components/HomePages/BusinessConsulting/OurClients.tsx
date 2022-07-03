@@ -6,11 +6,16 @@ export default class OurClients extends Component {
   render() {
     return (
       <>
-        <div className="partner-area bg-1b2232 ptb-100">
+        <div className="partner-area bg-white ptb-50">
+          <div className="row mt-3 mb-5 text-center section-title">
+            <h2>Zaufali nam</h2>
+          </div>
           <div className="container text-center">
             <Swiper
-              navigation={true}
-              spaceBetween={50}
+              autoplay={{
+                delay: 3000,
+              }}
+              spaceBetween={100}
               breakpoints={{
                 0: {
                   slidesPerView: 2,
@@ -29,11 +34,15 @@ export default class OurClients extends Component {
                 },
               }}
               modules={[Navigation]}
-              className="mySwiper partner-slides"
+              className="our-clients-swiper partner-slides d-flex align-items-center"
             >
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <img src="/images/aqs/partners/bmw-logo.png" alt="bmw" />
+                  <img
+                    src="/images/aqs/partners/bmw-logo.png"
+                    alt="bmw"
+                    className="scaled"
+                  />
                 </div>
               </SwiperSlide>
 
@@ -51,7 +60,11 @@ export default class OurClients extends Component {
 
               <SwiperSlide>
                 <div className="partner-item text-center">
-                  <img src="/images/aqs/partners/skoda-logo.svg" alt="skoda" />
+                  <img
+                    src="/images/aqs/partners/skoda-logo.svg"
+                    alt="skoda"
+                    className="scaled"
+                  />
                 </div>
               </SwiperSlide>
 

@@ -1,6 +1,8 @@
 import React, { Component, useState } from "react";
 import { useTranslation } from "react-i18next";
 
+const STANDARDS_NUMBER = 6;
+
 function About() {
   const { t: trans } = useTranslation("about");
   const t = (tStr: string) => trans(`page.${tStr}`);
@@ -44,7 +46,7 @@ function About() {
                   <p>{t("ourStandards.description")}</p>
 
                   <ul>
-                    {new Array(6).fill("").map((_, idx) => {
+                    {new Array(STANDARDS_NUMBER).fill("").map((_, idx) => {
                       const index = idx + 1;
                       return (
                         <li key={`list-item-${index}`}>

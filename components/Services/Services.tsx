@@ -1,6 +1,6 @@
 import React from "react";
-import Link from "next/link";
 import { useTranslation } from "react-i18next";
+import { NUMBER_OF_SERVICES } from "../../services/i18n/translations/servicesBanner";
 
 function Services() {
   const { t } = useTranslation("servicesBanner");
@@ -9,24 +9,21 @@ function Services() {
     <>
       <div className="container mt-4 pt-4">
         <div className="section-title">
-          <span className="sub-title">{t("subTitle")}</span>
           <h2>{t("title")}</h2>
         </div>
       </div>
       <div className="bg-fcfbfb pt-100 pb-70">
         <div className="container px-0 mx-auto">
           <div className="row justify-content-center">
-            {new Array(8).fill("").map((_, i) => {
+            {new Array(NUMBER_OF_SERVICES).fill("").map((_, i) => {
               const idx = i + 1;
               const details = getQAServiceIconsAndBgs(idx);
               return (
                 <div key={`services-item-${idx}`} className="col-lg-3 col-sm-6">
                   <div className="service-card-one white-bg text-center">
                     <i className={`${details.icon} ${details.bg}`}></i>
-                    <h3>
-                      {t(`qa.service${idx}.title`)}
-                    </h3>
-                    <p>{t(`qa.service${idx}.description`)}</p>
+                    <h3>{t(`services.service${idx}.title`)}</h3>
+                    <p>{t(`services.service${idx}.description`)}</p>
                   </div>
                 </div>
               );
@@ -73,6 +70,22 @@ function getQAServiceIconsAndBgs(idx: number) {
     8: {
       icon: "pe-7s-target",
       bg: "bg-C59538",
+    },
+    9: {
+      icon: "pe-7s-edit",
+      bg: "bg-4FC9D2",
+    },
+    10: {
+      icon: "pe-7s-box2",
+      bg: "bg-47ABBC",
+    },
+    11: {
+      icon: "pe-7s-download",
+      bg: "bg-3a7587",
+    },
+    12: {
+      icon: "pe-7s-photo-gallery",
+      bg: "bg-4ab5c3",
     },
   };
 

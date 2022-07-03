@@ -211,7 +211,6 @@ a:focus {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   position: relative;
-  text-transform: capitalize;
   z-index: 1;
   font-weight: 600;
   font-size: 15px;
@@ -1398,17 +1397,22 @@ Main Banner CSS
 
 .hero-img-1 {
   background-position: center center;
-  background-image: url(/images/main-banner/factory-large.jpeg);
+  background-image: url(/images/aqs/main-banner/welder-large.jpeg);
 }
 
 .hero-img-2 {
   background-position: center center;
-  background-image: url(/images/main-banner/welder-large.jpeg);
+  background-image: url(/images/aqs/main-banner/modern-factory-large.jpeg);
 }
 
 .hero-img-3 {
   background-position: center center;
-  background-image: url(/images/main-banner/modern-factory-large.jpeg);
+  background-image: url(/images/aqs/main-banner/factory-large.jpeg);
+}
+
+.hero-img-4 {
+  background-position: center center;
+  background-image: url(/images/aqs/main-banner/manufacturing-team.jpeg);
 }
 
 .hero-bg1 {
@@ -2323,27 +2327,15 @@ Case Studies CSS
 }
 
 .single-case-studies.bg1 {
-  background-image: url(/images/case-studies/studie1.jpg);
+  background-image: url(/images/aqs/case-studies/studie1.jpg);
 }
 
 .single-case-studies.bg2 {
-  background-image: url(/images/case-studies/studie2.jpg);
+  background-image: url(/images/aqs/case-studies/studie2.jpg);
 }
 
 .single-case-studies.bg3 {
-  background-image: url(/images/case-studies/studie3.jpg);
-}
-
-.single-case-studies.bg4 {
-  background-image: url(/images/case-studies/studie4.jpg);
-}
-
-.single-case-studies.bg5 {
-  background-image: url(/images/case-studies/studie5.jpg);
-}
-
-.single-case-studies.bg6 {
-  background-image: url(/images/case-studies/studie6.jpg);
+  background-image: url(/images/aqs/case-studies/studie3.jpg);
 }
 
 .single-case-studies:hover .shape {
@@ -2913,6 +2905,19 @@ Services CSS
 
 .bg-F3771E {
   background-color: #f3771e;
+}
+
+.bg-4FC9D2 {
+  background-color: #4fc9d2;
+}
+.bg-47ABBC {
+  background-color: #47abbc;
+}
+.bg-4ab5c3 {
+  background-color: #4ab5c3;
+}
+.bg-3a7587 {
+  background-color: #3a7587;
 }
 
 /* Service card one */
@@ -5708,32 +5713,40 @@ Page Title CSS
   position: relative;
 }
 
-.page-title-area.bg-one {
-  background: transparent url(/images/page-banner1.jpeg) right top no-repeat;
+.page-title-area.bg-about {
+  background: transparent url(/images/aqs/page-banner-about.jpeg) right top
+    no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
+.page-title-area.bg-career {
+  background: transparent url(/images/aqs/page-banner-career.jpeg) right top
+    no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
 .page-title-area.bg-two {
-  background: transparent url(/images/page-banner2.jpg) right top no-repeat;
+  background: transparent url(/images/aqs/page-banner2.jpeg) right top no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .page-title-area.bg-three {
-  background: transparent url(/images/page-banner3.jpg) right top no-repeat;
+  background: transparent url(/images/aqs/page-banner3.jpeg) right top no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .page-title-area.bg-four {
-  background: transparent url(/images/page-banner4.jpg) right top no-repeat;
+  background: transparent url(/images/aqs/page-banner4.jpeg) right top no-repeat;
   background-position: center center;
   background-size: cover;
 }
 
 .page-title-area.bg-five {
-  background: transparent url(/images/page-banner5.jpg) right top no-repeat;
+  background: transparent url(/images/aqs/page-banner5.jpeg) right top no-repeat;
   background-position: center center;
   background-size: cover;
 }
@@ -6841,6 +6854,10 @@ Footer CSS
   margin-bottom: 20px;
 }
 
+.single-footer-widget .logo img {
+  height: 92px;
+}
+
 .single-footer-widget .logo a {
   font-size: 24px;
   font-weight: bold;
@@ -7099,7 +7116,7 @@ Footer CSS
 }
 
 .footer-dark {
-  background-color: #000 !important;
+  background-color: #1c1c1c !important;
 }
 
 .footer-dark p {
@@ -7355,8 +7372,17 @@ span.new {
   width: 100%;
 }
 
+.our-clients-swiper .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .partner-slides .swiper-button-prev {
   left: -6px;
+}
+
+.partner-item img.scaled {
+  transform: scale(0.55);
 }
 
 .partner-slides .swiper-button-prev:after {

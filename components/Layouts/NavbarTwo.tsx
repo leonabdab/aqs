@@ -47,7 +47,6 @@ class NavbarTwo extends Component<Props> {
                 <a className="navbar-brand show">
                   <img
                     src="/images/logo.png"
-                    className="white-logo"
                     alt="logo"
                   />
                 </a>

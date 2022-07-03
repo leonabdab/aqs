@@ -22,7 +22,7 @@ class WhoWeAre extends Component<Props> {
   render() {
     return (
       <>
-        <div className="bc-who-we-are-area ptb-100">
+        <div className="bc-who-we-are-area ptb-50">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">

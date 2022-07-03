@@ -33,12 +33,9 @@ class Navbar extends Component<Props> {
   }
   render() {
     const { collapsed } = this.state;
-    const classOne = collapsed
-      ? "collapse navbar-collapse"
-      : "collapse navbar-collapse show";
-    const classTwo = collapsed
-      ? "navbar-toggler navbar-toggler-right collapsed"
-      : "navbar-toggler navbar-toggler-right";
+    const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
+    const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
+    
     return (
       <>
         <div id="navbar" className="navbar-area">

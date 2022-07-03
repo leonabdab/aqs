@@ -6,15 +6,15 @@ function WhatWeDo() {
 
   return (
     <>
-      <div className="ptb-100">
+      <div className="ptb-50">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-7 col-md-12">
+            <div className="col-lg-6 col-md-12 p-0">
               <div className="bc-what-we-do-image">
                 <img src="/images/aqs/what-we-do.jpg" alt="image" />
               </div>
             </div>
-            <div className="col-lg-5 col-md-12">
+            <div className="col-lg-6 p-0 col-md-12">
               <div className="bc-what-we-do-content ">
                 <div className="section-title">
                   <span className="sub-title text-uppercase">

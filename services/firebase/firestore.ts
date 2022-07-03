@@ -1,32 +1,27 @@
-import { initializeApp } from "firebase/app";
-import { 
-    getFirestore,
-    query,
-    orderBy,
-    onSnapshot,
-    collection,
-    getDoc, 
-    getDocs, 
-    addDoc,
-    updateDoc,
-    doc, 
-    serverTimestamp, 
-    arrayUnion
-} from "firebase/firestore";
+import firebase from 'firebase';
+
+import { getAnalytics } from "firebase/analytics";
 import { getAuth, signInAnonymously} from "firebase/auth";
 
-const firebaseConfig = {
+const firebaseConfig= {
     apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
+    measurementId: process.env.REACT_APP_FIREBASE_MEASURMENT_ID
 };
 
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app)
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+const firebaseAuth = firebaseApp.auth();
+const firestore = firebaseApp.firestore();
+const analytics = getAnalytics(firebaseApp);
 
-export const authenticateAnonymously = () => {
-    return signInAnonymously(getAuth(app));
-};
+export const collections = Object.freeze({
+    shopItems: firestore.collection('shopItems') //as firebase.firestore.CollectionReference<FirebaseProduct>,
+});
+
 
 // export const createGroceryList = (userName, userId) => {
 //     const groceriesColRef = collection(db, 'groceryLists')

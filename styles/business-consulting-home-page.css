@@ -362,6 +362,13 @@
   border-right: none;
 }
 
+.bc-what-we-do-content {
+    background-color: #f3f4f7;
+    padding: 30px;
+}
+.bc-what-we-do-image {
+    padding: 0;
+}
 /* What We Do Area CSS */
 .bc-what-we-do-content .section-title {
   text-align: start;

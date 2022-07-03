@@ -16,7 +16,7 @@ const About = () => {
   return (
     <>
       <NavbarTwo />
-      <PageBanner pageTitle={t("mainText.1")} secondaryText={t("mainText.2")} BGImage="bg-one" />
+      <PageBanner pageTitle={t("mainText.1")} secondaryText={t("mainText.2")} BGImage="bg-about" />
       <AboutContent />
       <FunFactsTwo />
       <TeamStyleThree />
