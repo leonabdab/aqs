@@ -60,22 +60,22 @@ class PortfolioDetailsContent extends Component {
                                 <h4>Share</h4>
                                 <ul className="social">
                                     <li>
-                                        <a href="https://www.facebook.com/" target="_blank">
+                                        <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                                             <i className="icofont-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/" target="_blank">
+                                        <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                                             <i className="icofont-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://icofont.com/" target="_blank">
+                                        <a href="https://icofont.com/" target="_blank" rel="noreferrer">
                                             <i className="icofont-linkedin"></i>
                                         </a>
                                     </li>
                                     <li> 
-                                        <a href="https://www.instagram.com/" target="_blank">
+                                        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
                                             <i className="icofont-instagram"></i>
                                         </a>
                                     </li>

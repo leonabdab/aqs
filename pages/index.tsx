@@ -21,10 +21,10 @@ class Index extends Component {
                 <OurWorks />
                 {/* <CallToAction /> */}
                 <WhatWeDo />
+                <OurClients />
                 <Services />
                 {/* <Features /> */}
                 {/* <LatestNews /> */}
-                <OurClients />
                 <Footer />
             </>
         );

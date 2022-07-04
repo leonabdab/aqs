@@ -15,12 +15,12 @@ export default class AppDownload extends Component {
                                         <p>Instant free download from store Cloud based storage for your data backup just log in with your mail account from play store and using whatever you want for your business purpose orem ipsum dummy text.</p>
 
                                         <div className="btn-box">
-                                            <a href="https://play.google.com/store/apps" className="playstore-btn" target="_blank">
+                                            <a href="https://play.google.com/store/apps" className="playstore-btn" target="_blank" rel="noreferrer">
                                                 <img src="/images/app/play-store.png" alt="image" />
                                                 Get It On
                                                 <span>Google Play</span>
                                             </a>
-                                            <a href="https://www.apple.com/app-store/" className="applestore-btn" target="_blank">
+                                            <a href="https://www.apple.com/app-store/" className="applestore-btn" target="_blank" rel="noreferrer">
                                                 <img src="/images/app/apple-store.png" alt="image" />
                                                 Download on the
                                                 <span>Apple Store</span>
