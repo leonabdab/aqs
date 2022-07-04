@@ -1,7 +1,7 @@
 const path = require('path')
 
 module.exports = {
-    distDir: '.next/build',
+    // distDir: '.next/build',
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],
     },
