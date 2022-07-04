@@ -53,7 +53,7 @@ build/Release
 # Dependency directories
 node_modules/
 out
-build
+/build
 
 # Optional npm cache directory
 .npm

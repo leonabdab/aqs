@@ -1,0 +1,20 @@
+{
+  "../components/HomePages/BusinessAgency/About.tsx -> react-modal-video": {
+    "id": 6635,
+    "files": [
+      "static/chunks/239.069af4bfa237933f.js"
+    ]
+  },
+  "../components/HomePages/BusinessConsulting/WhoWeAre.tsx -> react-modal-video": {
+    "id": 6635,
+    "files": [
+      "static/chunks/239.069af4bfa237933f.js"
+    ]
+  },
+  "../components/Services/ServiceDetailsContent.tsx -> react-modal-video": {
+    "id": 6635,
+    "files": [
+      "static/chunks/239.069af4bfa237933f.js"
+    ]
+  }
+}

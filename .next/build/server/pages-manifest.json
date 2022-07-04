@@ -1,0 +1,22 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html",
+  "/about": "pages/about.html",
+  "/api/contact": "pages/api/contact.js",
+  "/business-agency": "pages/business-agency.html",
+  "/career/[vacancy]": "pages/career/[vacancy].html",
+  "/career": "pages/career.html",
+  "/coming-soon": "pages/coming-soon.html",
+  "/contact": "pages/contact.html",
+  "/faq": "pages/faq.html",
+  "/": "pages/index.html",
+  "/portfolio": "pages/portfolio.html",
+  "/pricing": "pages/pricing.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/service-details": "pages/service-details.html",
+  "/services": "pages/services.html",
+  "/team": "pages/team.html",
+  "/terms-conditions": "pages/terms-conditions.html"
+}
