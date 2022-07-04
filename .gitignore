@@ -57,7 +57,7 @@ build
 
 # Optional npm cache directory
 .npm
-.next
+# .next
 
 # Optional eslint cache
 .eslintcache
